@@ -9,8 +9,19 @@ body{
     background-color: blanchedalmond;
 }
 #main-heading{
+    margin-top: 10px;
      font-size: 2rem;
      text-shadow: 2px 2px 4px #F6B17A;  
+}
+.container{
+    margin: 50px;
+    height: 30vh;
+    width: 85vh;
+    border: 2px solid aliceblue;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px black;
 }
 .button{
     margin: 10px;
@@ -57,6 +68,33 @@ body{
     transform: scale(1.2);  
 }
 #msg{
-    font: 1rem;
-    text-shadow: 2px 2px 4px #c77029;
+    font: 0.65rem;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(192, 192, 15);
+}
+
+#start{
+    background-color: #c77029;
+    border-radius: 2px;
+    color: black;
+    box-shadow: 2px 2px 4px  black;
+    margin: 10px;
+    text-shadow: 1px 1px 2px white;
+}
+#stop{
+    background-color: rgb(205, 88, 108);
+    border-radius: 2px;
+    color: black;
+    font-weight: 500;
+    box-shadow: 2px 2px 4px  black;
+    text-shadow: 1px 1px 2px white;
+}
+.h2{
+    height: 150px;
+    width: 70vw;
+    border: 2px solid aliceblue;
+    border-radius: 12px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 2px 6px black;
 }
